@@ -1,0 +1,36 @@
+/* Custom styles */
+
+body, 
+html {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+   
+  }
+  
+  .backgroundimg { 
+    /* Image*/
+    background-image: url("option1.JPG");
+     
+    /* Full height */
+    height: 100vh; 
+    
+  
+    /* Center and scale the image nicely */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .text1 {
+       margin-top: 500px;
+          float: left;
+      font-size: 50px;
+      text-align: center;
+      color: gainsboro;
+  }
+  
+  .text2 {
+    margin-top: 100px;
+    color: gainsboro;
+  }
