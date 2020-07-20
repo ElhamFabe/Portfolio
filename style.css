@@ -7,7 +7,15 @@ html {
     background-color: black;
    
   }
-  
+  #customlogo {
+    width: 78px;
+    height: 64px;
+    background-size: 100%;
+    display: block;
+    float: left;
+
+
+  }
   .backgroundimg { 
     /* Image*/
     background-image: url("option1.JPG");
@@ -23,11 +31,11 @@ html {
   }
 
   .text1 {
-      background-color: gray;
-      margin-top: 500px;
+      background-color:grey;
+      margin-top: 300px;
       border: 3px black ridge;
       float: left;
-      font-size: 50px;
+      font-size: 40px;
       text-align: center;
       color: gainsboro;
   }
