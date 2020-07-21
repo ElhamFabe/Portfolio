@@ -45,17 +45,13 @@ html {
     margin: 150px 30px; 
     }
 
-  /* Portfolio  */
-  #project{
-    margin: 50px 
-    
-  }
-
+ 
   /* Contact form */
   #contact {
     margin-top: 50px;
     color: gainsboro;
     
+    /* footer */
   }
   footer {
   position: fixed;

@@ -23,7 +23,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="Elham">
-                <a class="navbar-brand" href="index.html"><img src="logo_porfolio.png" id="customlogo"class="d-inline-block align-top" alt="Elham name logo" loading="lazy"></a>
+                <a class="navbar-brand" href="index.html"><img src="Assets/Logo/logo_porfolio.png" id="customlogo"class="d-inline-block align-top" alt="Elham name logo" loading="lazy"></a>
                 <ul class="navbar-nav ml-auto mt-2 mt-sm-0">
                     <li class="nav-item active">
                         <a class="nav-link" href="About.html">About Me</a>
@@ -43,35 +43,80 @@
     <!-- container -->
     <div id="contact" class="container-fluid">
         <!-- row -->
-        <section class="row">
-            <!-- column -->
-            <article class="col-md-8 offset-md-5">
-                <!-- heading -->
-                <h1 >Contact Form</h1>
-                <h3 class="text-align-center">Let's create</h3>
-            </article>
-        </section>
-        <!-- row -->
-        <section class="row">
-<!-- column -->
+   <!--Section: Contact v.2-->
+<section class="col-md-8 offset-md-2">
 
-<article class="col-sm-6">
+    <!--Section heading-->
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Form</h2>
+    <!--Section description-->
+    <p class="text-center w-responsive mx-auto mb-5">Let's create!</p>
 
-</article>
+    <div class="row">
 
-<article class="col-sm-6"></article>
+        <!--Grid column-->
+        <div class="col-md-12">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
 
-<article class="col-sm-6"></article>
+                <!--Grid row-->
+                <div class="row">
 
-        </section>
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="name" name="name" class="form-control">
+                            <label for="name" class="">Your name</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <input type="text" id="email" name="email" class="form-control">
+                            <label for="email" class="">Your email</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-8">
+                            <input type="text" id="subject" name="subject" class="form-control">
+                            <label for="subject" class="">Subject</label>
+                        </div>
+                    </div>
+                </div>
+                <!--Grid row-->
+
+                <!--Grid row-->
+
+            </form>
+
+            <div class="text-center text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <!--Grid column-->
+
+        
+    </div>
+
+</section>
+<!--Section: Contact v.2-->
 
     </div>
     <!-- footer -->
-    <div class="footer">
-        <p>
-          Copyright 2020 Elham T.Hussain. All Rights Reserved
-        </p>
+    <footer>
+        <section>
+            <h5> &copy;Elham T.Hussain. All Rights Reserved</h5>
+        </section>
     </footer>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
