@@ -8,35 +8,39 @@
     <meta name="Description" content="Enter your description here" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Assets/Css/style.css">
     <title>Portfolio | Elham T.Hussain</title>
 </head>
 
 <body>
     <header>
-        <!-- navbar-responsive to smaller devices -->
-        <!-- start nav -->
+        <!-- navbar-responsive to medium devices -->
+        <!--  start of nav bar -->
         <nav class="navbar navbar-expand-md navbar-light bg-light">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarnavAltMarkup"
+                aria-controls="navbarnavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
-            <a class="navbar-brand" href="index.html">
+            </button>
+            <!-- navbar logo / active link -->
+            <a class="navbar-brand ml-auto" href="index.html">
                 <img src="Assets/Logo/EHlogo copy.png" width="100" height="50" alt="initials EH logo" loading="lazy">
             </a>
-            <ul class="navbar-nav justify-content-end ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="About.html">About</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
+            <!-- linked toggler to links -->
+            <div class="collapse navbar-collapse" id="navbarnavAltMarkup">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
-        <!-- static navbar -->
-        <!-- end nav -->
+        <!-- end of navbar -->
     </header>
     <!-- main layout -->
     <main class="container-fluid">
@@ -49,7 +53,7 @@
                 <!-- Card image -->
                 <div class="view overlay">
                     <img class="card-img-top" src="Assets/Photos/IMG_5718.jpg" alt="Photo of Barcelona">
-                    <a href="#!">
+                    <a href="portfolio.html">
                         <div class="mask rgba-white-slight"></div>
                     </a>
                 </div>
@@ -76,7 +80,7 @@
                 <!-- Card image -->
                 <div class="view overlay">
                     <img class="card-img-top" src="Assets/Photos/IMG_5718.jpg" alt="Photo of Barcelona">
-                    <a href="#!">
+                    <a href="portfolio.html">
                         <div class="mask rgba-white-slight"></div>
                     </a>
                 </div>
@@ -102,7 +106,7 @@
                 <!-- Card image -->
                 <div class="view overlay">
                     <img class="card-img-top" src="Assets/Photos/IMG_5718.jpg" alt="Photo of Barcelona">
-                    <a href="#!">
+                    <a href="portfolio.html">
                         <div class="mask rgba-white-slight"></div>
                     </a>
                 </div>
@@ -134,7 +138,7 @@
                 <!-- Card image -->
                 <div class="view overlay">
                     <img class="card-img-top" src="Assets/Photos/IMG_5718.jpg" alt="Photo of Barcelona">
-                    <a href="#!">
+                    <a href="portfolio.html">
                         <div class="mask rgba-white-slight"></div>
                     </a>
                 </div>
@@ -143,13 +147,37 @@
                 <div class="card-body">
 
                     <!-- Title -->
-                    <h4 class="card-title">Card title</h4>
+                    <h4 class="card-title">Project</h4>
                     <!-- Text -->
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's
-                        content.</p>
+                    <p class="card-text">Coming Soon...</p>
                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                    <button type="button" class="btn btn-primary btn-md">Read more</button>
+                    <button type="button" class="btn btn-outline-dark btn-md">Read more</button>
+
+                </div>
+                <!-- Card content -->
+
+            </div>
+            <!-- Card -->
+
+            <!-- Card -->
+            <div class=" display:flex card mb-4">
+
+                <!-- Card image -->
+                <div class="view overlay">
+                    <img class="card-img-top" src="Assets/Photos/IMG_5718.jpg" alt="Photo of Barcelona">
+                    <a href="portfolio.html">
+                        <div class="mask rgba-white-slight"></div>
+                    </a>
+                </div>
+
+                <!-- Card content -->
+                <div class="card-body">
+                    <!-- Title -->
+                    <h4 class="card-title">Project</h4>
+                    <!-- Text -->
+                    <p class="card-text">Coming Soon..</p>
+                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                    <button type="button" class="btn btn-outline-dark btn-md">Read more</button>
 
                 </div>
                 <!-- Card content -->
@@ -163,35 +191,7 @@
                 <!-- Card image -->
                 <div class="view overlay">
                     <img class="card-img-top" src="Assets/Photos/IMG_5718.jpg" alt="Photo of Barcelona">
-                    <a href="#!">
-                        <div class="mask rgba-white-slight"></div>
-                    </a>
-                </div>
-
-                <!-- Card content -->
-                <div class="card-body">
-                    <!-- Title -->
-                    <h4 class="card-title">Card title</h4>
-                    <!-- Text -->
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's
-                        content.</p>
-                    <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                    <button type="button" class="btn btn-primary btn-md">Read more</button>
-
-                </div>
-                <!-- Card content -->
-
-            </div>
-            <!-- Card -->
-
-            <!-- Card -->
-            <div class="card mb-4">
-
-                <!-- Card image -->
-                <div class="view overlay">
-                    <img class="card-img-top" src="Assets/Photos/IMG_5718.jpg" alt="Photo of Barcelona">
-                    <a href="#!">
+                    <a href="portfolio.html">
                         <div class="mask rgba-white-slight"></div>
                     </a>
                 </div>
@@ -200,13 +200,11 @@
                 <div class="card-body">
 
                     <!-- Title -->
-                    <h4 class="card-title">Card title</h4>
+                    <h4 class="card-title">Project</h4>
                     <!-- Text -->
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's
-                        content.</p>
+                    <p class="card-text">Coming Soon...</p>
                     <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                    <button type="button" class="btn btn-primary btn-md">Read more</button>
+                    <button type="button" class="btn btn-outline-dark btn-md">Read more</button>
 
                 </div>
                 <!-- Card content -->
