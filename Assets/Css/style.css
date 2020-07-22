@@ -8,22 +8,26 @@ html {
    
   }
  
-  #customlogo {
-    width: 90px;
-    height: 90px;
-    background-size: 100%;
-    display: block;
-      }
-  .backgroundimg { 
+  
+  /* .backgroundimg { 
     /* Image*/
-    background-image: url("Assets/Photos/option1.JPG");
+    /* background-image: url(""); */
    /* Full height */
     height: 100vh; 
+    /* min-height: 300px; */
     /* Center and scale the image nicely */
-    background-position: center center;
-    background-repeat: no-repeat;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
     background-size: cover;
-  }
+  } */
+
+  /* .navbar-brand {
+    color: gainsboro;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+  letter-spacing: 2px;
+  } */
 
   .text1 {
       background-color:grey;
