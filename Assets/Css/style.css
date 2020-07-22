@@ -7,9 +7,10 @@
   body {
     background-color: black;
   }
-  .img-fluid {
-    max-width: 100%;
-    height: auto;
+ 
+  #backgroundimg {
+   height: 100vh;
+  width: 100%;
   }
 
   .text1 {
