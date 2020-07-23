@@ -75,8 +75,14 @@ background-color: #36342F;
     color: gainsboro;
       
   }
+  #sendbtn {
+    margin-left: 100px;
+       
+  }
   .myrow {
     color: gainsboro;
+    margin-top: 50px;
+padding-left: 100px;
     
   }
 
