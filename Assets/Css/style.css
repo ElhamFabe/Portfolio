@@ -11,7 +11,7 @@
  
   /* Id home for index.html file background */
   #home {
-    background: url(../Photos/option1.JPG) no-repeat 100% 100%;
+    background: url(../Photos/sliceeffect.jpg) no-repeat 100% 100%;
     display: table;
     height: 100%;
     width: 100%;
@@ -22,7 +22,7 @@
 .landing-text {
    display: table-cell;
   vertical-align: center;
-  text-align: center;
+  text-align: right;
   color: gainsboro;
   
 }
@@ -39,7 +39,7 @@ h1 {
   background-color: gainsboro;
   color: gray;
   font-size: 100%;
-  margin-left: 150px;
+  margin-right: 300px;
 
 }
 .btn-default:hover {
