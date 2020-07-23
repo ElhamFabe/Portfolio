@@ -21,7 +21,7 @@
 /* index.html file text */
 .landing-text {
    display: table-cell;
-  vertical-align: middle;
+  vertical-align: center;
   text-align: center;
   color: gainsboro;
   
@@ -39,7 +39,7 @@ h1 {
   background-color: gainsboro;
   color: gray;
   font-size: 100%;
-  margin-left: 400px;
+  margin-left: 150px;
 
 }
 .btn-default:hover {
