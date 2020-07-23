@@ -20,19 +20,19 @@
   }
 /* index.html file text */
 .landing-text {
- 
-  display: table-cell;
+   display: table-cell;
   vertical-align: middle;
   text-align: center;
   color: gainsboro;
   
 }
-h1{
+h1 {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 300%;
   line-height: .9;
   margin-top: 400px;
   margin-left: 150px;
+  
 }
 
 .btn-default {
@@ -79,7 +79,7 @@ background-color: #36342F;
     color: gainsboro;
   }
 
-  /* footer */
+  /* sticky footer */
   footer {
   position: fixed;
    left: 0;
