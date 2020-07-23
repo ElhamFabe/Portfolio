@@ -44,12 +44,23 @@ h1{
 color: #fff;
 background-color: #36342F;
 }
-  /* About me */
-  .Aboutme {
-   margin: 150px 30px; 
+/* portfolio */
+
+.card {
+  color: black;
+}
+  
+/* About me */
+.aboutcard {
+  text-align: center;
+}
+
+.Aboutme {
+   margin: 300px 80px; 
     }
     
-    .aboutText  {
+.aboutText  {
+  margin-top: 20px;
       text-align: center;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       color: black;
