@@ -9,6 +9,7 @@
     background: black;
   }
  
+  /* Id home for index.html file background */
   #home {
     background: url(../Photos/option1.JPG) no-repeat 100% 100%;
     display: table;
@@ -17,7 +18,7 @@
     background-size: cover;
     
   }
-
+/* index.html file text */
 .landing-text {
  
   display: table-cell;
@@ -45,13 +46,13 @@ h1{
 color: #fff;
 background-color: #36342F;
 }
-/* portfolio */
 
+/* portfolio.html  */
 .card {
   color: black;
 }
   
-/* About me */
+/* About.html file */
 .aboutcard {
   text-align: center;
 }
@@ -67,7 +68,7 @@ background-color: #36342F;
       color: black;
     }
  
-  /* Contact form */
+  /* Contact.html  */
   #contact {
     margin-top: 50% 50%;
     
@@ -77,6 +78,7 @@ background-color: #36342F;
   .myrow {
     color: gainsboro;
   }
+
   /* footer */
   footer {
   position: fixed;
@@ -87,7 +89,8 @@ background-color: #36342F;
    color: black;
   text-align: center;
     }
-  /*  Responsive breakpoints for medium devices */
+
+  /*  Responsive breakpoints for medium devices for landing page */
     @media (max-width: 768px) {
       h1{
         font-size: 150%;
